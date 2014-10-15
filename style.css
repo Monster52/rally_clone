@@ -1,0 +1,135 @@
+/***** GENERAL *****/
+body {
+   color: #333;
+   line-height: 18px;
+   padding: 0px;
+   margin: 0px;
+   font-family: Verdana, Ariel, Helvitica, sans-serif;
+   background-image: url("img/waves1.png");
+   background-color: rgb(224, 223, 213);
+   background-repeat: repeat-x;
+}
+
+.container {
+   padding: 0px;
+   width: 850px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #A2A8A0;
+   display: block;
+   overflow: hidden;
+   text-align: left;
+}
+
+
+/*****   NAV  *****/
+.nav {
+   width: 100%;
+   text-align: right;
+   font-size: 10px;
+}
+
+.nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.nav li {
+   display: inline;
+}
+
+.nav a {
+   padding-right: 15px;
+   text-decoration: none;
+}
+
+.nav a:link {
+   color: black;
+}
+
+.nav a:hover {
+   color: blue;
+}
+
+/***** Center NAV *****/
+.cnav {
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background-color: #EDEDED;
+   width: 90%;
+   border-radius: 5px;
+   font-size: 12px;
+}
+
+.cnav ul {
+   width: 100%;
+   margin: 0px auto;
+   list-style-type: none;
+   padding-top: 10px;
+   padding-bottom: 10px
+}
+
+.cnav li {
+   display: inline;
+   border-right: 1px solid black;
+}
+
+#nob {
+   border-right: none;
+}
+
+.cnav a {
+   padding-right:15px;
+   text-decoration: none;
+}
+
+.cnav a:link {
+   color: black
+}
+
+
+
+/***** IMGS *****/
+#logo {
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+#rpmain {
+   max-width: 100% !important;
+   margin-top: 30px;
+}
+
+#rpmain img {
+   max-width: 100% !important;
+   height: auto;
+   display: block;
+}
+
+/***** MAIN CONTENT *****/
+
+.mainl {
+   float: left;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 10%;
+}
+
+.mainr {
+   float: right;
+   width: 50%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+#clear {
+   clear: both;
+}
+
+
+   
